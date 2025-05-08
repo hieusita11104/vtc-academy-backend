@@ -37,7 +37,6 @@ const insertSampleData = asyncHandler(async () => {
     return;
   }
 
-  // Dữ liệu mẫu: một cuộc chat 1-1 giữa hai người dùng
   const chats = [
     {
       isGroupChat: false,
